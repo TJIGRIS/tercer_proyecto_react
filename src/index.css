@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.image {
+  background-image: url("../src/assets/setup.jpg");
+}
+
+.image2 {
+  background-image: url("../src/assets/typing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.barra::before {
+  content: "";
+  position: absolute;
+  width: 8rem;
+  height: 3px;
+  border-radius: 5rem;
+  background: #21a0cd;
+  bottom: 0;
+}
+
+.barra2::before {
+  content: "";
+  position: absolute;
+  width: 2rem;
+  height: 3px;
+  border-radius: 5rem;
+  background: #21a0cd;
+  left: 0;
+  bottom: 0.7rem;
+}
+
+.barra3::before {
+  content: "";
+  position: absolute;
+  width: 2rem;
+  height: 3px;
+  border-radius: 5rem;
+  background: #21a0cd;
+  right: 0;
+  bottom: 0.7rem;
+}
